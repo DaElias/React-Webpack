@@ -1,0 +1,23 @@
+
+
+@keyframes rotar {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+#giro {
+  animation: rotar 10s infinite;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
