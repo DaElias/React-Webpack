@@ -9,7 +9,7 @@ const app = () => {
         <h1>+</h1>
         <LogoWebpack />
       </div>
-      <h1>By DeCerchiaro</h1>
+      <h1>By DeElias</h1>
     </>
   );
 };
