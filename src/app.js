@@ -5,7 +5,7 @@ const app = () => {
   return (
     <>
       <div className="container">
-        <LogoReact />
+        <LogoReact id="giro"/>
         <h1>+</h1>
         <LogoWebpack />
       </div>

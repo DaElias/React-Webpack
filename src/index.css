@@ -23,3 +23,16 @@ h1 {
   width: 350px;
 }
 
+@keyframes rotar {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+#giro {
+  animation: rotar 10s infinite;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+}
