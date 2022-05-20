@@ -1,12 +1,16 @@
 import React from "react";
-import Logo from "./logo.svg";
-
+import LogoReact from "./logoReact.svg";
+import LogoWebpack from "./logoWebpack.svg";
 const app = () => {
   return (
-    <div className="app">
-      <h1>React + Webpack </h1>
-      <Logo id="giro" style={{ height: "400px" }} />
-    </div>
+    <>
+      <div className="container">
+        <LogoReact />
+        <h1>+</h1>
+        <LogoWebpack />
+      </div>
+      <h1>By DeCerchiaro</h1>
+    </>
   );
 };
 export default app;

@@ -1,23 +1,25 @@
-
-
-@keyframes rotar {
-  from {
-    transform: rotateZ(0deg);
-  }
-  to {
-    transform: rotateZ(360deg);
-  }
-}
-#giro {
-  animation: rotar 10s infinite;
-  animation-delay: 2s;
-  animation-timing-function: linear;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
 }
 
-.app {
+html {
+  background-color: #20232a;
+}
+h1 {
+  font-size: 32px;
+  color: white;
+  margin: 20px;
+}
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 10%;
 }
+.container svg {
+  width: 350px;
+}
+
